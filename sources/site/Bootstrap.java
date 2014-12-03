@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 import org.eclipse.jetty.server.*;
 import org.eclipse.jetty.server.handler.*;
 
-class Bootstrap {
+class Boot strap {
     public static void main(String[] args) throws Exception {
         Server server = new Server(getPort());
         server.setHandler(new ResourceHandler() {
